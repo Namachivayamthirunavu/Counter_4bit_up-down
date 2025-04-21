@@ -80,6 +80,8 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![Screenshot 2025-04-21 152542](https://github.com/user-attachments/assets/73238122-6a9b-43bd-b211-2b43ca4ec26e)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -98,8 +100,10 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2025-03-17 153246](https://github.com/user-attachments/assets/c6aac237-0c33-4fee-adbe-3a9d0231f34b)
 
 ## Fig 6: Nclaunch Window
+![Screenshot 2025-03-17 153428](https://github.com/user-attachments/assets/6f5a25c5-922d-4cc1-a790-4ebb26fe64a4)
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -131,6 +135,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot 2025-03-17 153447](https://github.com/user-attachments/assets/305ff775-a046-4ceb-914d-8cf95feadcc5)
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -153,6 +158,7 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![Screenshot 2025-03-17 153542](https://github.com/user-attachments/assets/c52315e6-66ac-4d86-8056-068fbb355e5a)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,10 +171,11 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2025-03-17 154122](https://github.com/user-attachments/assets/1d93a7a1-94d5-4bf5-930d-5f81ca419c80)
 
 ## Fig 10: Simulation Waveform Window
+![Screenshot 2025-03-17 154706](https://github.com/user-attachments/assets/a8780237-2152-403b-9380-5e73c638784c)
 
-## Fig 11: Simulation Waveform Window
 
 ### Result
 
